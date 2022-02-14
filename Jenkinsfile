@@ -8,7 +8,6 @@ pipeline {
                 sh '''
                 cd simple_webserver
                 docker build -t docker_webserver .
-                docker run -p 5000:5000 docker_webserver
 
 
                 '''
