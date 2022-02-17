@@ -18,7 +18,7 @@ pipeline {
         stage('Test') {
         when{changeRequest()}
             steps {
-                echo 'Testing...'
+                echo 'Testing..'
                 sh'''
                 exit 1
                 '''
